@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaido Limited Company</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="logo.png" alt="Kaido Logo" onerror="this.style.display='none'" />
+      <span>KAIDO <em>Ltd</em></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#systems">Systems</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">&#9776;</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-tag">Welcome to</p>
+    <h1 class="hero-title">KAIDO<br/><span>LIMITED</span><br/>COMPANY</h1>
+    <p class="hero-sub">Developing & creating all kinds of systems — crafted for tomorrow's world.</p>
+    <div class="hero-btns">
+      <a href="#systems" class="btn-gold">Our Systems</a>
+      <a href="#contact" class="btn-outline">Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="section-label">Who We Are</div>
+    <h2 class="section-title">Built to <span>Innovate</span></h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Kaido Limited Company is a forward-thinking technology firm dedicated to developing and creating powerful digital systems for businesses and individuals across Africa and beyond.</p>
+        <p>From management platforms to custom software, our goal is to deliver tools that transform how you operate — with speed, reliability, and elegance.</p>
+        <div class="about-stats">
+          <div class="stat"><span id="stat1">0</span>+<p>Systems Built</p></div>
+          <div class="stat"><span id="stat2">0</span>+<p>Clients Served</p></div>
+          <div class="stat"><span id="stat3">0</span>%<p>Satisfaction Rate</p></div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="about-card gold-card">
+          <div class="card-icon">⚡</div>
+          <h3>Fast Delivery</h3>
+          <p>We build and deploy systems with efficiency and precision.</p>
+        </div>
+        <div class="about-card dark-card">
+          <div class="card-icon">🔐</div>
+          <h3>Secure Systems</h3>
+          <p>Security is at the core of every solution we create.</p>
+        </div>
+        <div class="about-card gold-card">
+          <div class="card-icon">🌍</div>
+          <h3>Global Reach</h3>
+          <p>Serving clients across Africa and internationally.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SYSTEMS -->
+<section class="systems section" id="systems">
+  <div class="container">
+    <div class="section-label">What We Build</div>
+    <h2 class="section-title">Our <span>Systems</span></h2>
+    <div class="systems-grid" id="systemsGrid">
+      <!-- populated by JS / admin data -->
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" id="services">
+  <div class="container">
+    <div class="section-label">What We Do</div>
+    <h2 class="section-title">Our <span>Services</span></h2>
+    <div class="services-grid" id="servicesGrid">
+      <!-- populated by JS / admin data -->
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="section-label">Reach Out</div>
+    <h2 class="section-title">Contact <span>Us</span></h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <h4>WhatsApp</h4>
+            <a href="https://wa.me/249961410098">+249 961 410 098</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:akaido236@gmail.com">akaido236@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <p>Get your system now — we develop and create all kinds of systems tailored to your needs.</p>
+          <a href="https://wa.me/249961410098" class="btn-gold">Start Your Project</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <h3>Send a Message</h3>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn-gold">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-logo">KAIDO <em>Ltd</em></span>
+        <p>Developing and creating all kinds of systems for a better tomorrow.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#systems">Systems</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📱 +249 961 410 098</p>
+        <p>✉️ akaido236@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Kaido Limited Company. All rights reserved.</p>
+      <a href="admin.html" class="admin-link">Admin</a>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
